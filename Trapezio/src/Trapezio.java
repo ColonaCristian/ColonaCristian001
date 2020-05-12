@@ -21,7 +21,7 @@ private float baseMin, baseMax,alt;
 }
 	
 	public float CalcolaArea() {
-		return (((baseMin * baseMax)*alt)/2);
+		return (((baseMin + baseMax)*alt)/2); //errore risolto
 	}
 	/**
 	 * 
